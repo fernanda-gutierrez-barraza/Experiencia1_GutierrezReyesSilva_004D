@@ -72,7 +72,6 @@ p{
       margin: 5px 0; 
       padding: 0; 
       background: url("../img/shared.png") no-repeat; 
-      float: left;
       margin-right: 5px; 
       cursor: pointer;
       border-radius: 50%;
@@ -144,4 +143,73 @@ p{
     opacity: 0.5;
 }
 
+
+
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+
+
+.img-container {
+    position: relative
+}
+
+.img-container .first {
+    position: absolute;
+    width: 100%
+}
+
+.img-container img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.product-detail-container {
+    padding: 10px
+}
+
+.ratings i {
+    color: #a9a6a6
+}
+
+.ratings span {
+    color: #a9a6a6
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    color:#2f4f4f;
+    font-size: 10px;
+    border-radius: 50%;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: #000000;
+    background-color: #2f4f4f;
+    color: #fff
+}
+ .colorfuente {
+     color: #94c8c4;
+ }
 
